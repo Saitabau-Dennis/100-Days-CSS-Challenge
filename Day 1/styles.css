@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    padding: 90px;
+    text-align: center;
+    background: linear-gradient(to right, #0650b1, #43bae1);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.text {
+    color: white;
+}
+
+.number {
+    font-size: 110px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.days {
+    font-size: 50px;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.challenge {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 2px;
+}
